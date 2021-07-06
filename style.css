@@ -1,0 +1,44 @@
+
+a{
+    color: black;
+}
+
+.link3 a:visited{
+color: rgb(221, 208, 18);
+
+}
+.link:hover{
+    font-weight: bold;
+    color: aqua;
+}
+.link2:active{
+    color: rgb(189, 9, 159);
+    font-style: italic;
+    
+}
+
+.navbar{
+    display: flex;
+    
+}
+
+li{
+    margin: 10px;
+    list-style: none;
+}
+
+
+.input1:focus{
+color: green;
+font-size: 20px;
+}
+.current-page{
+    background-color:rgb(78, 78, 110)
+}
+.search:focus{
+    outline:none;
+    border: 1px solid rgb(17, 231, 160)
+}
+li:hover{
+background-color:blue
+}
